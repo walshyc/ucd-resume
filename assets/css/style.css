@@ -25,6 +25,10 @@
     background-color: #fff;
 }
 
+.bg-colour-personal-info {
+    background-color: #f4f4f4;
+}
+
 /* Catchall */
 
 h1,
@@ -49,21 +53,15 @@ h5 {
     display: inline-block;
 }
 
-.section-column {
-    padding: 0 30px;
-    float: none;
-    display: table-cell;
-}
-
 .row-table {
     display: table;
 }
 
-.section-heading{
- font-family: "Exo", sans-serif;
- font-weight: 300;
- margin-top: 25px;
- margin-bottom: 4px;
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /* Heading */
@@ -205,4 +203,64 @@ footer .cv-pdf i:hover {
 
 .social-links li a i:hover {
     background-color: #e84610;
+}
+
+/* Three Reasons */
+
+.three-reasons-icons {
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
+/* Peronal Info */
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    display: inline-block;
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    display: inline-block;
+    position: relative;
+    width: 60%;
+}
+
+
+
+
+/* Media Queries */
+
+@media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px;
+        float: none;
+        display: table-cell;
+    }
 }
