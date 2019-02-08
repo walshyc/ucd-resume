@@ -340,6 +340,10 @@ footer .cv-pdf i:hover {
     margin-bottom: 30px;
 }
 
+/* Interests Page */
+
+div#map {min-height: 360px;}
+
 /* Contact Page */
 
 .contact-heading {
